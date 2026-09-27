@@ -16,19 +16,18 @@ body {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  gap: 10px; /* Black lines from grid gap */
-  background-color: #000; /* Line color */
+  gap: 10px; 
+  background-color: #000;
   width: 90vw;
   height: 90vw;
-  max-width: 90vh; /* Ensures scaling without exceeding viewport height */
+  max-width: 90vh; 
   max-height: 90vh;
 }
 
 .block {
-  background-color: #f0f0f0; /* Default white/off-white */
+  background-color: #f0f0f0; 
 }
 
-/* Grid Spans */
 .blue {
   grid-column: 1 / 3;
   grid-row: 1 / 4;
